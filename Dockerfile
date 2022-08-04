@@ -3,7 +3,7 @@ LABEL  Maintainer=”Fatimah”
 
 EXPOSE  3000
 
-COPY ./var/www
+COPY . /var/www
 WORKDIR /var/www
 
 RUN npm install
